@@ -263,8 +263,9 @@ public class ActionERTQPlannerDRaPS extends APSRPlanner {
 //		double ratio = 1.0 / (data.getBatchNumber() + 1);
 //		ratio = Math.max(ratio, 0.5);
 		double ratio = 1.0;
-		TrainingDataSet sampleddata = new TrainingDataSet(data, ratio);
-		return sampleddata;
+//		TrainingDataSet sampleddata = new TrainingDataSet(data, ratio);
+//		return sampleddata;
+		return null;
 	}
 	public ActionEnsemblesQFunction learnQFunctionHelper(int runs, int iterations, 
 			int treesPerEnsemble, int k, int nMin, int iter) throws Exception
