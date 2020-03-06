@@ -1,0 +1,8 @@
+SVD_Dimension=2
+Projection_Dimension=5
+Hashed=false
+Projection_Type=Spherical
+Memoryless=false
+Hist_Compress=true
+Max_Test_Length=1
+Max_History_Length=1

@@ -1,0 +1,14 @@
+Num_Tree_Splits=3
+Leaf_Size=5
+Runs_Per_Iteration=5000
+Test_Runs=10000
+Init_Runs=5000
+Plan_Iters=5000
+Planning_Iterations=20
+Trees_Per_Ensemble=5
+Discount_Factor=0.95
+Tree_Building_Iterations=10
+Max_Batch_Size=1000
+Max_Run_Length=100
+Epsilon=0.5
+Sample_Ratio=-1
